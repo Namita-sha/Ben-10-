@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+     <link rel="icon" type="jpg" href="logo.jpg">
+     <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="https://fonts.google.com/share?selection.family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900|Orbitron:wght@400..900|Roboto:ital,wght@0,100..900;1,100..900|Tagesschrift">"
+</head>
+<body>
+    <!--form-->
+    <div class="ben1"></div>
+    <div class="content1">
+<h4><u>Please fill the below form</u></h4>
+<form action="form.html" method="POST">
+    <label for ="username"> username:</label>
+    <input type="text" id  ="username" placeholder ="Ben 10" minlength="6" maxlength="15" required><br>
+    <label for="password" >Password:</label>
+    <input type="password" id="password "><br>
+     <label for="Phone" >Phone No:</label>
+    <input type="text" id="phone " pattern "[0-4]" {5} "[5-9]" {5}><br>
+    <label for="birthday" >Birthday</label>
+    <input type="date" id="birthday"><br>
+      <label>Choose your Omnitrix Level:</label><br>
+  <input type="radio" name="level" value="basic"> Basic<br>
+  <input type="radio" name="level" value="ultimate"> Ultimate<br>
+  <input type="radio" name="level" value="omniverse"> Omniverse<br>
+    <h4>Which alien is your favourite?</h4>
+ <label for="Heatblast" >Heatblast</label>
+    <input type="checkbox" id="Heatblast" ><br>
+    <label for="XLR8" >XLR8</label>
+    <input type="checkbox" id="XLR8"><br>
+    <label for="DiamondHead" >DiamondHead</label>
+    <input type="checkbox" id="DiamondHead"><br>
+    <label for="Wildmutt" >Wildmutt</label>
+    <input type="checkbox" id="Wildmutt"><br>
+     <label for="Four Arms" >Four Arms</label>
+    <input type="checkbox" id="Four Arms"><br>
+     <label for="Ghostfreak" >Ghostfreak</label>
+    <input type="checkbox" id="Ghostfreak"><br>
+
+<!---drop down button-->
+
+<h4>Which Ben 10 series has best story line?</h4>
+<select id="Series">
+<option value ="Ben 10 classic">Ben 10 classic</option>
+<option value="Ben 10 Alien Force " >Ben 10 Alien Force  </option>
+<option value="Ben 10 Ultimate" > Ben 10 Ultimate</option>
+<option value=" Ben 10 Omniverse" > Ben 10 Omniverse</option>   
+</select><br>
+<!----comment-->
+<h4>Any favourite scene you want to describe?</h4>
+ <label for="comment" >Comment</label>
+    <textarea id="comment" rows="5" cols="25"></textarea><br><br>
+    <!---file submission-->
+     <label for="file" >Fan Art</label>
+    <input type="file" id="file" accept="image/png,image/jpeg,image/jpg,pdf"><br><br>
+    <input type="reset"><br><br>
+    <input type="submit">
+</form>
+</main><br>
+  <footer> website Made by:Namita Sharma<br>
+    &copy;copyright reserved<br>
+    <small><a href="mailto:ben10@gmail.com"></a></small>
+  </footer>
+  </div>
+</body>
+</html>
