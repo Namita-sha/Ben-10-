@@ -85,3 +85,7 @@ Open index.html in your web browser.
 Ensure all image,and video files are in the same directory.
 
 git clone https://github.com/Namita-sha/Ben-10-.git
+
+Acknowledgment
+Made with 💚 by Namita Sharma
+© All rights reserved. This is a fan project and not affiliated with Cartoon Network or the Ben 10 franchise.
